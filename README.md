@@ -7,7 +7,7 @@ Usage:
 ------
 
     NIBadgeView* badgeView = [[NIBadgeView alloc] initWithFrame:CGRectZero];
-    badgeView.text = @"7"
+    badgeView.text = @"7";
     badgeView.backgroundColor = [UIColor clearColor];
     [badgeView sizeToFit];
     [self.view addSubview:badgeView];
